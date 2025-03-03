@@ -1,6 +1,3 @@
-#ifndef MY_GCD_H
-#define MY_GCD_H
-
 #include <algorithm>
 
 // Compute the GCD of two integers using the Euclidean algorithm.
@@ -16,5 +13,3 @@ int gcd(int a, int b) {
     }
     return a;
 }
-
-#endif
